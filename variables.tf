@@ -4,6 +4,11 @@
 #########################################
 # Control Tower Core Account Parameters
 #########################################
+
+variable "ami" {
+  description = "ami"
+  type = string
+}
 variable "ct_management_account_id" {
   description = "Control Tower Management Account Id"
   type        = string

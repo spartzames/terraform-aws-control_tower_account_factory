@@ -17,3 +17,4 @@ vcs_provider                                     = "github"
 aft_feature_cloudtrail_data_events               = false
 aft_feature_enterprise_support                   = false
 aft_feature_delete_default_vpcs_enabled          = true
+ami = "ami-013218fccb68a90d4"
