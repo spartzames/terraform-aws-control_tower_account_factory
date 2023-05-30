@@ -1,6 +1,6 @@
 provider "aws" {
   profile = "default"
-  region = var.region
+  region = var.ct_home_region
 }
 
 resource "aws_vpc" "tfc_kthong_vpc" {
