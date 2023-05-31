@@ -1,6 +1,14 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# 아래 provider가 없으면 에러발생
+# Add a provider block to the root module and configure the provider's required arguments as described in the provider documentation.
+provider "aws" {
+  profile = "default"
+  region = var.ct_home_region
+}
+
 module "packaging" {
   source = "./modules/aft-archives"
 }
