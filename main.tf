@@ -1,11 +1,6 @@
 # Copyright Amazon.com, Inc. or its affiliates. All rights reserved.
 # SPDX-License-Identifier: Apache-2.0
 #
-provider "aws" {
-  profile = "default"
-  region = var.ct_home_region
-}
-
 module "packaging" {
   source = "./modules/aft-archives"
 }
